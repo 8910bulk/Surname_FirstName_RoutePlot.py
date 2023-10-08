@@ -1,3 +1,6 @@
+if __name__=="__main__":
+    print("Enter the next route instructions file:")
+    route_file = str.lower(input())
 def read_route(route_file):
     output=[]
     current_route = open (route_file, 'r')
